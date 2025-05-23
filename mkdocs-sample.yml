@@ -1,0 +1,16 @@
+site_name: Docs
+theme:
+  name: material
+  language: ru
+docs_dir: /vault  # <-- указали откуда брать Markdown-файлы
+site_dir: /site     # <-- необязательно, но можно указать куда класть HTML
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences
